@@ -1,0 +1,10 @@
+.map {
+    height: 500px; /* Height must be always defined for map container  */
+    width: 50%;
+}
+
+.marker-icon {
+    width: 25px;
+    height: 25px;
+    background-color: #282c34;
+}
