@@ -88,11 +88,48 @@ button {
 	bottom: 5px;
 	left: 5px;
 	padding: 20px;
-	background-color: #fff;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	cursor: pointer;
 	z-index: 1000;
 	cursor: pointer;
 	background-color: #4B9DEA;
-  }
+}
+
+.popup-content {
+	width: 100%;
+	height: auto;
+}
+
+.leaflet-popup {
+	min-width: 200px;
+}
+
+.leaflet-tooltip {
+	padding: 20px;
+}
+
+.leaflet-popup-content {
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+.zoom-level {
+	position: absolute;
+	z-index: 10000;
+	right: 5px;
+	font-size: 1.2rem;
+	background-color: #4B9DEA;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.zoom-level-icon {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-weight: bold;
+	white-space: nowrap;
+}
